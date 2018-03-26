@@ -8,7 +8,7 @@
     <script src="js/jquery.js"></script>
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
-
+    <script src="js/index.js"></script>
 </head>
 <body>
     <div class="qsf-header">
@@ -16,9 +16,12 @@
             <div id="qsf-top-body">
                 <ul class="qsf-top-left">
                     <li id="qsf-entry-link"><b><a href="javascript:">骑士蜂会员</a><i></i></b></li>
+                    <li class="qsf-user" id="qsf-user">
+                        <span></span>
+                    </li>
                     <li>
                         <a href="javascript:">登录</a>
-                        <a class="qsf-youli" href="javascript:">注册有礼<i></i></a>
+                        <a class="qsf-youli" href="javascript:">注册有礼(送骑士币)<i></i></a>
                     </li>
                 </ul>
                 <ul class="qsf-top-right">
@@ -27,7 +30,7 @@
                     <li><a href="javascript:">企业采购</a></li>
                     <li id="qsf-service"><b><em class="qsf-icon"></em><a href="javascript:">服务中心</a><i></i></b></li>
                     <li id="qsf-sitemap"><b><a href="javascript:">网站导航</a><i></i></b></li>
-                    <li id="qsf-phone"><b><em></em><a href="javascript:">手机骑士蜂</a><i></i></b></li>
+                    <li id="qsf-phone"><b><em></em><a href="javascript:">手机版骑士蜂</a><i></i></b></li>
                 </ul>
             </div>
         </div>
@@ -36,9 +39,9 @@
     <div id="qsf-head">
         <div class="wrapper">
             <div id="logo">
-                <a href="javascript:"><img src="../images/logo.png"></a>
-                <a href="javascript:"><img src="../images/1.png"></a>
-                <a href="javascript:"><img src="../images/pr.png"></a>
+                <a href="javascript:"><img src="images/logo.png"></a>
+                <a href="javascript:"><img src="images/1.png"></a>
+                <a href="javascript:"><img src="images/pr.png"></a>
                 <br class="separator">
             </div>
             <div id="topSearch" class="topSearch">
@@ -87,12 +90,12 @@
             </div>
             <div class="mainnav">
                 <ul>
-                    <li><a class="nav_text_red" href="javascript:">圈子</a></li>
+                    <li><a class="nav_text_red" href="javascript:">骑士蜂产品</a></li>
                     <li><a href="javascript:">真划算</a></li>
                     <li><a href="javascript:">服装城</a></li>
                     <li><a href="javascript:">超市</a></li>
                     <li><a href="javascript:">电器城</a></li>
-                    <li><a href="javascript:">骑士蜂产品</a></li>
+                    <li><a href="javascript:">圈子</a></li>
                     <li><a href="javascript:">汽车</a></li>
                     <li><a href="javascript:">家居家装</a></li>
                     <li><a href="javascript:">智能</a></li>
@@ -179,16 +182,225 @@
             </ul>
             <div class="qsf-adnavside">
                 <ul>
-                    <li><a href="javascript:"><img  width="170" height="40" src="../images/main.png"></a></li>
-                    <li style="display: none;"><a href="javascript:"><img width="170" height="40" src="../images/pic.png"></a></li>
-                    <li style="display: none;"><a href="javascript:"><img width="170" height="40" src="../images/pic.png"></a></li>
-                    <li style="display: none;"><a href="javascript:"><img width="170" height="40" src="../images/pic.png"></a></li>
-                    <li style="display: none;"><a href="javascript:"><img width="170" height="40" src="../images/pic.png"></a></li>
+                    <li><a href="javascript:"><img  width="170" height="40" src="images/main.png"></a></li>
+                    <li style="display: none;"><a href="javascript:"><img width="170" height="40" src="images/pic.png"></a></li>
+                    <li style="display: none;"><a href="javascript:"><img width="170" height="40" src="images/pic.png"></a></li>
+                    <li style="display: none;"><a href="javascript:"><img width="170" height="40" src="images/pic.png"></a></li>
+                    <li style="display: none;"><a href="javascript:"><img width="170" height="40" src="images/pic.png"></a></li>
                 </ul>
                 <span>
                     <i></i>
                     <i></i>
                 </span>
+            </div>
+            <div class="qsf-pos">
+                <div class="qsf-kuaixun">
+                    <div class="qsf-news">
+                        <h2>骑士蜂快讯</h2>
+                        <a href="javascript:">更多<span>></span></a>
+                    </div>
+                    <div class="qsf_news_content">
+                        <span>
+                            <a href="javascript:">特惠</a>
+                            <a href="javascript:">戴尔独显笔记本低至2999元</a>
+                        </span>
+                        <span>
+                            <a href="javascript:">特惠</a>
+                            <a href="javascript:">格力空调 门店同款低价开抢</a>
+                        </span>
+                        <span>
+                            <a href="javascript:">特惠</a>
+                            <a href="javascript:">贵妃芒24.9元4斤 第2件半价</a>
+                        </span>
+                        <span>
+                            <a href="javascript:">公益</a>
+                            <a href="javascript:">有买有善  骑士蜂探索公益新模式</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="icon_server_box">
+                    <div class="icon_box">
+                        <ul>
+                            <li><a href="javascript:"><i></i><span>充值</span></a></li>
+                            <li><a href="javascript:"><i></i><span>票务</span></a></li>
+                            <li><a href="javascript:"><i></i><span>游戏</span></a></li>
+                            <li><a href="javascript:"><i></i><span>旅行</span></a></li>
+                            <li><a href="javascript:"><i></i><span>美盈宝</span></a></li>
+                            <li><a href="javascript:"><i></i><span>基金</span></a></li>
+                            <li><a href="javascript:"><i></i><span>视频</span></a></li>
+                            <li><a href="javascript:"><i></i><span>找服务</span></a></li>
+                            <li><a href="javascript:"><i></i><span>金融</span></a></li>
+                            <li><a href="javascript:"><i></i><span>定期</span></a></li>
+                            <li><a href="javascript:"><i></i><span>转让</span></a></li>
+                            <li><a href="javascript:"><i></i><span>帮助</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="qsf-kuaixun-img">
+                    <a href="javascript:"><img src="images/index1_logo.png"></a>
+                </div>
+            </div>
+        </div>
+        <br class="separator">
+    </div>
+    <div class="carousel" id="carousel">
+        <li style="background:linear-gradient(#dfcacf,#3fa6cf);width: 100%;height: 450px;">
+            <div class="wrapper">
+                <a href="javascript:"><img src="images/banner.png"></a>
+                <!--<div class="brand">-->
+                    <!--<div class="brand-box">-->
+                        <!--<a href="javascript:"><img src="images/1.jpg"></a>-->
+                        <!--<a href="javascript:"><img src="images/1.jpg"></a>-->
+                        <!--<a href="javascript:"><img src="images/1.jpg"></a>-->
+                        <!--<a href="javascript:"><img src="images/1.jpg"></a>-->
+                        <!--<a href="javascript:"><img src="images/1.jpg"></a>-->
+                        <!--<a href="javascript:"><img src="images/1.jpg"></a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+        </li>
+        <li style="background:linear-gradient(to right,#fff,#eee);width: 100%;height: 450px; display: none;">
+            <div class="wrapper">
+                <a href="javascript:"><img src="images/main.png"></a>
+            </div>
+        </li>
+        <li style="background:linear-gradient(#eee,#efe);width: 100%;height: 450px;display: none;">
+            <div class="wrapper"><a href="javascript:"><img src="images/qyn.jpg"></a></div>
+        </li>
+        <li style="background:linear-gradient(#cde,#ccc);width: 100%;height: 450px;  display: none;">
+            <div class="wrapper"><a href="javascript:"><img src="images/index1_logo.png"></a></div>
+        </li>
+    </div>
+    <div class="qsf-countdown">
+        <div class="wrapper">
+            <div class="qsf-countdown-left">
+                <div class="count_box">
+
+                    <div class="count_box_l">
+                        <a href="javascript:">准点开抢</a>
+                        <h3>蜂时必杀</h3>
+                    </div>
+                    <div class="count_r">
+                        <a href="javascript:">本场次剩余时间</a>
+                        <span>00:59:34</span>
+                    </div>
+                </div>
+                <div class="count_bob">
+                    <ul>
+                        <li>
+                            <a href="javascript:">
+                                <img src="images/lanhao.jpg">
+                            </a>
+                            <h3>骑士蜂精选</h3>
+                            <div class="count_bob_padd"><span>￥11888</span><del>￥28888</del></div>
+                            <p>
+                                优质蓝耗，采用1000°C的高温制作
+                                完美的外形,让你体现宋朝时代的瓷器
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="images/pic1.png">
+                            </a>
+                            <h3>骑士蜂精选</h3>
+                            <div class="count_bob_padd"><span>￥25888</span><del>￥38888</del></div>
+                            <p>
+                                骑士蜂珠宝 黄金戒指 足金情侣对戒 结婚戒 活口戒指
+                                先领券，再下单！
+                            </p>
+                        <li>
+                            <a href="javascript:">
+                                <img src="images/lake.png"></a>
+                            </a>
+                            <h3>骑士蜂精选</h3>
+                            <div class="count_bob_padd"><span>￥33888</span><del>￥68888</del></div>
+                        <p>
+                            (骑士蜂自营)紫丁香950ml丁香清香茶壶S79
+                        </p>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <img src="images/c-project.png">
+                            </a>
+                            <h3>骑士蜂精选</h3>
+                            <div class="count_bob_padd"><span>￥15888</span><del>￥26888</del></div>
+                            <p>
+                                (骑士蜂自营) 创意定制陶瓷马克水杯带盖个性杯子办公室经典怀旧仿搪
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="qsf-countdown-right">
+                <div class="click_box">
+                    <a href="javascript:"><img src="images/guan.jpg"></a>
+                    <h3>强力推荐</h3>
+                    <div class="count_bob_padd"><span>￥88888</span><del>￥116888</del></div>
+                    <p>
+                        梦克拉Mkela 足金镶和田玉吊坠 观音 黄金金镶玉男项坠
+                        春新荡漾 简约时尚有质感 优雅百搭有
+                    </p>
+
+                </div>
+                <div class="time_box"></div>
+            </div>
+        </div>
+    </div>
+    <div class="qsf-bar">
+        <div class="qsf-bar-border" id="qsf-bar-border" style="display: block;">
+            <ul class="qsf-bar-border-tab">
+                <li class="qsf-bar-btn-member"><b></b><i></i><a href="javascript:"></a></li>
+                <li><b></b><i></i><a href="javascript:"></a></li>
+                <li><b></b><i></i><a href="javascript:"></a></li>
+            </ul>
+        </div>
+        <br class="separator">
+    </div>
+    <div class="qsf-corechn1_inner">
+        <div class="wrapper">
+            <div class="box">
+                <div class="box-top">
+                    <img src="images/hui.png">
+                    <h5>特色推荐</h5>
+                    <a href="javascript:">更多特色推荐</a>
+                </div>
+                <div class="box-bottom">
+                    <div class="count-img">
+                        <a href="javascript:">
+                            <img src="images/lake.png">
+                            <em>藏壶天下 紫砂壶茶壶全手工名家泡茶壶宜兴紫砂功夫茶具石瓢壶</em>
+                        </a>
+                    </div>
+                    <div class="count-img">
+
+                    </div>
+                    <div class="count-img">
+
+                    </div>
+                    <div class="count-img">
+
+                    </div>
+                    <div class="count-img">
+
+                    </div>
+                    <div class="count-img">
+
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-top">
+                    <img src="images/hot.png">
+                    <h5>热卖排行榜</h5>
+                    <a href="javascript:">更多热卖</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-top">
+                    <img src="images/shcu.png">
+                    <h5>好货</h5>
+                    <a href="javascript:">更多好货</a>
+                </div>
             </div>
         </div>
     </div>
